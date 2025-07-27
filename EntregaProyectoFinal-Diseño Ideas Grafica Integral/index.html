@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Diseño Ideas Gráfica Integral - Servicios Profesionales de Diseño</title>
+    <meta name="description"
+        content="Servicios profesionales de diseño gráfico, desarrollo web, branding e identidad corporativa. Transformamos tus ideas en realidad visual.">
+    <meta name="keywords"
+        content="diseño gráfico, logo, branding, desarrollo web, marketing digital, identidad corporativa">
+    <meta name="author" content="Diseño Ideas Gráfica Integral">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Diseño Ideas Gráfica Integral">
+    <meta property="og:description" content="Servicios profesionales de diseño gráfico y desarrollo web">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://diseñoideas.com">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Diseño Ideas Gráfica Integral">
+    <meta name="twitter:description" content="Servicios profesionales de diseño gráfico y desarrollo web">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎨</text></svg>">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <i class="fas fa-palette me-2"></i>
+                <span>Diseño Ideas</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Reseñas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-outline-primary ms-2" data-bs-toggle="modal" data-bs-target="#cartModal">
+                            <i class="fas fa-shopping-cart me-1"></i>
+                            <span id="cart-badge" class="badge bg-primary">0</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Transformamos tus <span class="text-highlight">ideas</span> en realidad
+                            visual</h1>
+                        <p class="hero-subtitle">Servicios profesionales de diseño gráfico, desarrollo web y branding
+                            que elevan tu marca al siguiente nivel</p>
+                        <div class="hero-buttons">
+                            <a href="#products" class="btn btn-primary btn-lg me-3">Ver Productos</a>
+                            <a href="#contact" class="btn btn-outline-light btn-lg">Contactanos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                        <div class="floating-card card-1">
+                            <i class="fas fa-palette"></i>
+                            <span>Diseño Creativo</span>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i class="fas fa-code"></i>
+                            <span>Desarrollo Web</span>
+                        </div>
+                        <div class="floating-card card-3">
+                            <i class="fas fa-bullhorn"></i>
+                            <span>Marketing Digital</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <h2 class="section-title">Sobre Nosotros</h2>
+                    <p class="lead">Somos un equipo de profesionales creativos especializados en diseño gráfico y
+                        desarrollo web.</p>
+                    <p>Con más de 10 años de experiencia, hemos ayudado a cientos de empresas a construir su identidad
+                        visual y presencia digital. Nuestro enfoque combina creatividad, estrategia y tecnología para
+                        entregar resultados excepcionales.</p>
+
+                    <div class="row mt-4">
+                        <div class="col-sm-4 text-center mb-3">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">Proyectos</div>
+                        </div>
+                        <div class="col-sm-4 text-center mb-3">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Años</div>
+                        </div>
+                        <div class="col-sm-4 text-center mb-3">
+                            <div class="stat-number">98%</div>
+                            <div class="stat-label">Satisfacción</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='500' height='400' viewBox='0 0 500 400'><rect width='100%' height='100%' fill='%23f8f9fa'/><circle cx='150' cy='150' r='50' fill='%23007bff'/><rect x='250' y='100' width='100' height='100' fill='%2328a745'/><polygon points='350,50 400,150 300,150' fill='%23ffc107'/><text x='250' y='250' font-family='Arial' font-size='20' text-anchor='middle' fill='%23343a40'>Creatividad + Estrategia</text></svg>"
+                            alt="Sobre nosotros" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Nuestros Servicios</h2>
+                    <p class="section-subtitle">Ofrecemos soluciones integrales para todas tus necesidades de diseño y
+                        marketing</p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h4>Diseño Gráfico</h4>
+                        <p>Logos, branding, material impreso y diseño publicitario que refleja la esencia de tu marca
+                        </p>
+                        <ul class="service-features">
+                            <li>Diseño de logos</li>
+                            <li>Identidad corporativa</li>
+                            <li>Material publicitario</li>
+                            <li>Packaging</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h4>Desarrollo Web</h4>
+                        <p>Sitios web responsivos, modernos y optimizados para convertir visitantes en clientes</p>
+                        <ul class="service-features">
+                            <li>Sitios web responsivos</li>
+                            <li>E-commerce</li>
+                            <li>Aplicaciones web</li>
+                            <li>SEO optimizado</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h4>Marketing Digital</h4>
+                        <p>Estrategias digitales que aumentan tu visibilidad y generan resultados medibles</p>
+                        <ul class="service-features">
+                            <li>Redes sociales</li>
+                            <li>Publicidad digital</li>
+                            <li>Email marketing</li>
+                            <li>Análisis y métricas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Nuestros Productos</h2>
+                    <p class="section-subtitle">Explora nuestro catálogo de servicios profesionales</p>
+                </div>
+            </div>
+
+            <!-- Product Filters -->
+            <div class="row mb-4">
+                <div class="col-12 text-center">
+                    <div class="btn-group" role="group" aria-label="Product filters">
+                        <button type="button" class="btn btn-outline-primary active" data-filter="all">Todos</button>
+                        <button type="button" class="btn btn-outline-primary" data-filter="impresion Plano">Impresion
+                            Plano</button>
+                        <button type="button" class="btn btn-outline-primary" data-filter="Corporeos">Corporeos</button>
+                        <button type="button" class="btn btn-outline-primary" data-filter="print">Print</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Products Grid -->
+            <div id="products-grid" class="row g-4">
+                <!-- Los productos se cargarán dinámicamente con JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+                    <p class="section-subtitle">Testimonios reales de clientes satisfechos</p>
+                </div>
+            </div>
+            
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">
+                        "Excelente trabajo en el diseño de nuestro logo. El equipo fue muy profesional y entregó exactamente lo que necesitábamos."
+                    </p>
+                    <div class="review-author">
+                        <img src="images/isabelromero.png" alt="María Castro" class="review-avatar">
+                        <div>
+                            <h5>María Castro</h5>
+                            <span>CEO, Empresa Tech</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">
+                        "El diseño web que desarrollaron para nuestra empresa superó nuestras expectativas. Muy recomendado."
+                    </p>
+                    <div class="review-author">
+                        <img src="https://via.placeholder.com/60x60/007bff/ffffff?text=JR" alt="Juan Rodríguez" class="review-avatar">
+                        <div>
+                            <h5>Juan Rodríguez</h5>
+                            <span>Director, Consultora XYZ</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">
+                        "Increíble atención al detalle y creatividad. Nuestras campañas de marketing han mejorado significativamente."
+                    </p>
+                    <div class="review-author">
+                        <img src="https://via.placeholder.com/60x60/ffc107/000000?text=AS" alt="Ana Sánchez" class="review-avatar">
+                        <div>
+                            <h5>Ana Sánchez</h5>
+                            <span>Marketing Manager</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Contáctanos</h2>
+                    <p class="section-subtitle">¿Tienes un proyecto en mente? ¡Hablemos!</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form id="contact-form" class="contact-form" action="https://formspree.io/f/xyzwglbb" method="POST">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="name" class="form-label">Nombre completo *</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Correo electrónico *</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="phone" class="form-label">Teléfono</label>
+                                <input type="tel" class="form-control" id="phone" name="phone">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="service" class="form-label">Servicio de interés</label>
+                                <select class="form-select" id="service" name="service">
+                                    <option value="">Selecciona un servicio</option>
+                                    <option value="logo-design">Diseño de Logo</option>
+                                    <option value="web-design">Desarrollo Web</option>
+                                    <option value="branding">Identidad Corporativa</option>
+                                    <option value="marketing">Marketing Digital</option>
+                                    <option value="print">Material Impreso</option>
+                                    <option value="other">Otro</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label">Mensaje *</label>
+                                <textarea class="form-control" id="message" name="message" rows="5"
+                                    placeholder="Cuéntanos sobre tu proyecto..." required></textarea>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">
+                                    <i class="fas fa-paper-plane me-2"></i>
+                                    Enviar Mensaje
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div id="form-success" class="alert alert-success mt-4" style="display: none;">
+                        <i class="fas fa-check-circle me-2"></i>
+                        ¡Mensaje enviado exitosamente! Te contactaremos pronto.
+                    </div>
+
+
+                    <div id="form-error" class="alert alert-danger mt-4" style="display: none;">
+                        <i class="fas fa-exclamation-triangle me-2"></i>
+                        Error al enviar el mensaje. Por favor, intenta nuevamente.
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="row mt-5">
+                        <div class="col-md-4 text-center mb-3">
+                            <div class="contact-info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <h5>Ubicación</h5>
+                                <p>Peru 2583<br>San Justo, Bs As, Argentina</p>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3891.930759916374!2d-58.562937124256464!3d-34.67961947292709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc62f5ed04011%3A0x69856cb00d4ec3f3!2sDise%C3%B1o%20Ideas%20-%20Gr%C3%A1fica%20Integral!5e1!3m2!1ses!2sar!4v1747692338162!5m2!1ses!2sar"
+                                    width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center mb-3">
+                            <div class="contact-info-item">
+                                <i class="fas fa-phone"></i>
+                                <h5>Teléfono</h5>
+                                <p>(11)4360-0060</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center mb-3">
+                            <div class="contact-info-item">
+                                <i class="fas fa-envelope"></i>
+                                <h5>Email</h5>
+                                <p>info@diseñoideas.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Diseño Ideas Gráfica Integral</h5>
+                    <p>Transformamos ideas en realidad visual. Servicios profesionales de diseño gráfico, desarrollo web
+                        y marketing digital.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/digraficaintegral/?locale=es_LA" target="_blank"
+                            aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/di_grafica_integral/?hl=es" target="_blank"
+                            aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/digraficaintegral/?locale=es_LA" target="_blank"
+                            aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/di_grafica_integral/?hl=es" target="_blank"
+                            aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <h5>Servicios</h5>
+                    <ul class="footer-links">
+                        <li><a href="#products">Diseño de Logos</a></li>
+                        <li><a href="#products">Desarrollo Web</a></li>
+                        <li><a href="#products">Marketing Digital</a></li>
+                        <li><a href="#products">Identidad Corporativa</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h5>Contacto</h5>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt me-2"></i>Peru 2583, San Justo, Bs As</li>
+                        <li><i class="fas fa-phone me-2"></i>(11) 4360-0060</li>
+                        <li><i class="fas fa-envelope me-2"></i>info@diseñoideas.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="my-4">
+
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2025 Diseño Ideas Gráfica Integral. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Modal -->
+    <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cartModalLabel">
+                        <i class="fas fa-shopping-cart me-2"></i>
+                        Carrito de Compras
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="cart-items">
+                        <!-- Cart items will be loaded here -->
+                    </div>
+                    <div id="cart-empty" class="text-center py-4" style="display: none;">
+                        <i class="fas fa-shopping-cart fa-3x text-muted mb-3"></i>
+                        <h5>Tu carrito está vacío</h5>
+                        <p class="text-muted">Agrega algunos productos para comenzar</p>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-between">
+                    <div class="cart-total">
+                        <h5>Total: $<span id="cart-total">0.00</span></h5>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continuar
+                            Comprando</button>
+                        <button type="button" class="btn btn-primary" id="checkout-btn">
+                            <i class="fas fa-credit-card me-2"></i>
+                            Proceder al Pago
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
